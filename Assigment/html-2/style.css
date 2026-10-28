@@ -1,2 +1,31 @@
-div{background-color: rgb(183, 101, 114);
-padding: 10;}
+body {
+    background-color: #AF8F6F;
+}
+.box {
+  width: 14%;
+  padding: 10px;
+  height: 10px 2px;
+  border: 2px solid #cdb69e(115, 78, 49);
+  margin-left: 0px;
+  background-color: #cdb69e;
+}
+
+.box-demo1 a {
+    background-color: #67580f;
+    margin-inline-end: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.box-demo1 {
+    background-color: #67580f;
+    margin-right: 20px;
+    text-align: right;
+    position: relative;
+}
+
+.box-demo2 {
+    background-color: #F8F4E1;
+    padding: 250px;
+}
+
