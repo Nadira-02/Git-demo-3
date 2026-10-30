@@ -48,7 +48,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100% ;
+    width: 100%;
 }
 
 main {
@@ -81,11 +81,9 @@ p {
 
 2.
 .product-grid {
-    display: flex;
-    align-content:end;
+    display: grid;
     gap: 20px;
-    justify-content: space-between;
-    margin-top: 20px;
+    justify-content: center;
 }
 
 .product-card {
@@ -94,6 +92,7 @@ p {
     padding: 15px;
     width: 32%;
     text-align: center;
+    margin-top: 20px;
 }
 
 .product-card h3 {
