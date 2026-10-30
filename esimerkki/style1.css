@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+.container {
+    width: 60rem;
+    align-items: center;
+    padding: 50%;
+}
+
+header{
+    background-color: brown;
+    text-align: center left;
+    padding: -20px;
+}
+
+main {
+    background-color: antiquewhite;
+}
+
+nav {
+    text-align: center;
+    nav-up: 2px;
+}
+
+img {
+    padding: 50px;
+}
