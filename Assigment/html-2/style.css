@@ -154,3 +154,12 @@ p {
     display: block;
     margin-left: auto;
 }
+
+.screenshots-page pre {
+    background-color: rgb(0, 0, 0 , 0.05);
+    padding: 15px;
+    border-radius: 5px;
+    text-align: left;
+    display: inline-block;
+    margin: 10px auto 30px auto;
+}
