@@ -9,7 +9,7 @@
 - Task 2: 2 p
 - Task 3: 3 p
 - Task 4: 3 p
-- Task 2/1: 2 p 
+- Task 2.1: 2 p 
 
 **Total 11p**
 
