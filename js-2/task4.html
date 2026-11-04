@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <title>Task 4</title>
+</head>
+<body>
+    <h1>Concatenated Strings</h1>
+    <p id="target"></p>
+
+    <script>
+        function concat(arr) {
+            let result = ""
+            for(let i = 0; i < arr.length; i++) {
+                result += arr[i];
+            }
+            return result;
+        }
+
+        const names = ["Johnny", "DeeDee", "Joey", "Marky"];
+
+        const concatenatedString = concat(names);
+        document.querySelector("#target").innerHTML = concatenatedString;
+    </Script>
+</body>
+</html>
