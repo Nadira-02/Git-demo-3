@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: lightcoral;
+    margin: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0px auto;
+}
+
+.box {
+    padding: 20px 30px;
+    width: 200px;
+    padding: 20px;
+    background-color: aqua;
+    border: 2px solid rgb(19, 17, 17);
+    margin: 20px;
+}
+
+header {
+    background-color: red;
+    border: 2px solid beige;
+    margin: 0px auto;
+    max-width: 900px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+main {
+    background-color: blueviolet;
+    border: 2px solid beige;
+    padding: 10px;
+}
+
+
