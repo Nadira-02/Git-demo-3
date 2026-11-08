@@ -5,6 +5,7 @@
 
 3. [My link to js mod 1&2 folder at users.metropolia.fi] (https://users.metropolia.fi/~nadirah/js-1/)
 
+
 - Task 1: 1 p
 - Task 2: 2 p
 - Task 3: 3 p
