@@ -23,3 +23,13 @@
 - Task 9: 3 p 
 
 **Total 11p**
+
+4. [My link to js mod 4 folder at users.metropolia.fi] (https://users.metropolia.fi/~nadirah/module3-starters-main/)
+
+- Task 1: 2 p
+- Task 2: 2 p
+- Task 3: 2 p
+- Task 4: 2 p
+- Task 5: 5 p 
+
+**Total 13p**
