@@ -34,13 +34,13 @@
 
 **Total 13p**
 
-6. [My link to Python Flask folder at users.metropolia.fi] (https://users.metropolia.fi/~nadirah/module3-starters-main/)
+6. [My link to Python Flask folder at users.metropolia.fi] (https://users.metropolia.fi/~nadirah/js-3/)
 
 - Task 2: 10 p
 
 **Total 10p**
 
-7. [My link to js mod 5 folder at users.metropolia.fi] (https://users.metropolia.fi/~nadirah/module3-starters-main/)
+7. [My link to js mod 5 folder at users.metropolia.fi] (https://users.metropolia.fi/~nadirah/js-4/)
 
 - Task 1: 2 p
 - Task 2: 3 p
