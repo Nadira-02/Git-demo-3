@@ -33,3 +33,17 @@
 - Task 5: 5 p 
 
 **Total 13p**
+
+6. [My link to Python Flask folder at users.metropolia.fi] (https://users.metropolia.fi/~nadirah/module3-starters-main/)
+
+- Task 2: 10 p
+
+**Total 10p**
+
+7. [My link to js mod 5 folder at users.metropolia.fi] (https://users.metropolia.fi/~nadirah/module3-starters-main/)
+
+- Task 1: 2 p
+- Task 2: 3 p
+- Task 3: 7 p 
+
+**Total 12p**
