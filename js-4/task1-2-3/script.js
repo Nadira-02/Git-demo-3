@@ -6,12 +6,11 @@ const resultsDiv = document.querySelector("#results");
 form.addEventListener("submit", async function (evt) {
     evt.preventDefault();
 
-    const queryValue = document.querySelector("#query").value.trim();
-    if (!queryValue) return;
+    const queryValue = document.querySelector("#query").value;
 
     try {
         const response = await fetch(
-            `https://api.tvmaze.com/search/shows?q=${encodeURIComponent(queryValue)}`
+            `https://api.tvmaze.com/search/shows?q=${queryValue}`
         );
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
@@ -34,7 +33,6 @@ form.addEventListener("submit", async function (evt) {
                 link.href = show.url;
                 link.textContent = "More details";
                 link.target = "_blank";
-                link.rel = "noopener noreferrer";
                 article.appendChild(link);
             }
 
@@ -45,10 +43,11 @@ form.addEventListener("submit", async function (evt) {
                 img.alt = show.name;
                 article.appendChild(img);
             }
-
-            const summaryDiv = document.createElement("div");
-            summaryDiv.innerHTML = show.summary ?? "";
-            article.appendChild(summaryDiv);
+            if (show.summary) {
+                const summaryDiv = document.createElement("div");
+                summaryDiv.innerHTML = show.summary;
+                article.appendChild(summaryDiv);
+            } 
 
             resultsDiv.appendChild(article);
         }
